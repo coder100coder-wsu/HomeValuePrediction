@@ -1,0 +1,1 @@
+{"fields":[{"metadata":{},"name":"floor","nullable":true,"type":"string"},{"metadata":{},"name":"n_bathrooms","nullable":true,"type":"double"},{"metadata":{},"name":"n_rooms","nullable":true,"type":"long"},{"metadata":{},"name":"sq_mt_built","nullable":true,"type":"double"}],"type":"struct"}

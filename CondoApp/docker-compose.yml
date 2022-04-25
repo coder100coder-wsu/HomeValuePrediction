@@ -1,0 +1,10 @@
+version: "3"
+services:
+  home-value-prediction-uplink:
+    # if something fails or the server is restarted, the container will restart
+    restart: always 
+    container_name: home-value-prediction-uplink
+    image: home-value-prediction-uplink
+    build: 
+      # build the image from the Dockerfile in the current directory
+      context: . 
